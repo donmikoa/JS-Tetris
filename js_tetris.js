@@ -217,7 +217,7 @@ function storeKey(ev) {
     arrows = ((ev.which))||((ev.keyCode));
 
     switch(arrows){
-        case 32:
+        case 33:
             dropDownTetro();
         case 37:
             keyPresses.unshift(-24);
